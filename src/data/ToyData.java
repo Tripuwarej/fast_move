@@ -8,15 +8,17 @@ public class ToyData {
 
     public static Bike[] getBikes() {
         Bike[] bikes = new Bike[3];
-        // your code
-
+        bikes[0] = new Bike("freshy",200);
+        bikes[1] = new Bike("ploy",300);
+        bikes[2] = new Bike("ice",400);
         return bikes;
     }
 
     public static Person[] getPerson() {
         Person[] person = new Person[3];
-        // your code
-
+        person[0] = new Person("Tripuwarej","Paweenasombat");
+        person[0] = new Person("Panista","Rienthong");
+        person[0] = new Person("Arisa","Audomkhachonkitti");
         return person;
     }
 
